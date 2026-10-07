@@ -1,0 +1,28 @@
+server:
+  port: 5000
+
+spring:
+  application:
+    name: job
+
+external-api:
+  base-url: http://localhost:3001
+  connect-timeout-millis: 1000
+  similar-ids-timeout-millis: 2000
+  product-detail-timeout-millis: 1500
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+logging:
+  level:
+    reactor.netty.http.client.HttpClientConnect: ERROR
