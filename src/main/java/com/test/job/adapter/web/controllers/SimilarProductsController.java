@@ -1,6 +1,6 @@
-package com.test.job.adapter.in.web;
+package com.test.job.adapter.web.controllers;
 
-import com.test.job.application.port.in.GetSimilarProductsUseCase;
+import com.test.job.application.port.GetSimilarProductsUseCase;
 import com.test.job.domain.Product;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

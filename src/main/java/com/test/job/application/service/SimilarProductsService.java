@@ -1,7 +1,7 @@
 package com.test.job.application.service;
 
-import com.test.job.application.port.in.GetSimilarProductsUseCase;
-import com.test.job.application.port.out.ProductCatalogPort;
+import com.test.job.application.port.GetSimilarProductsUseCase;
+import com.test.job.application.port.ProductCatalogPort;
 import com.test.job.domain.Product;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

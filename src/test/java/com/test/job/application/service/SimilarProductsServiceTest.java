@@ -1,6 +1,6 @@
 package com.test.job.application.service;
 
-import com.test.job.application.port.out.ProductCatalogPort;
+import com.test.job.application.port.ProductCatalogPort;
 import com.test.job.domain.Product;
 import com.test.job.domain.exception.ProductNotFoundException;
 import com.test.job.domain.exception.UpstreamServiceException;

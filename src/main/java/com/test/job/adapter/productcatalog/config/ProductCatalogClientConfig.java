@@ -1,6 +1,6 @@
-package com.test.job.adapter.out.productcatalog.config;
+package com.test.job.adapter.productcatalog.config;
 
-import com.test.job.adapter.out.productcatalog.ExistingProductApiClient;
+import com.test.job.adapter.productcatalog.ExistingProductApiClient;
 import com.test.job.domain.exception.ProductNotFoundException;
 import com.test.job.domain.exception.UpstreamServiceException;
 import io.netty.channel.ChannelOption;

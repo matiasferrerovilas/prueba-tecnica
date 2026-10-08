@@ -1,7 +1,7 @@
-package com.test.job.adapter.out.productcatalog;
+package com.test.job.adapter.productcatalog;
 
-import com.test.job.adapter.out.productcatalog.config.ProductCatalogClientConfig;
-import com.test.job.adapter.out.productcatalog.config.ProductCatalogProperties;
+import com.test.job.adapter.productcatalog.config.ProductCatalogClientConfig;
+import com.test.job.adapter.productcatalog.config.ProductCatalogProperties;
 import com.test.job.domain.Product;
 import com.test.job.domain.exception.ProductNotFoundException;
 import com.test.job.domain.exception.UpstreamServiceException;

@@ -1,4 +1,4 @@
-package com.test.job.application.port.out;
+package com.test.job.application.port;
 
 import com.test.job.domain.Product;
 import reactor.core.publisher.Mono;

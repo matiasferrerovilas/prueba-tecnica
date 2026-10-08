@@ -1,4 +1,4 @@
-package com.test.job.adapter.out.productcatalog.config;
+package com.test.job.adapter.productcatalog.config;
 
 import io.github.resilience4j.circuitbreaker.CircuitBreakerConfig;
 import io.github.resilience4j.timelimiter.TimeLimiterConfig;

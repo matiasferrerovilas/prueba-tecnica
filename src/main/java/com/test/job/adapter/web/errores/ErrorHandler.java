@@ -1,4 +1,4 @@
-package com.test.job.adapter.in.web;
+package com.test.job.adapter.web.errores;
 
 import com.test.job.domain.exception.ProductNotFoundException;
 import com.test.job.domain.exception.UpstreamServiceException;

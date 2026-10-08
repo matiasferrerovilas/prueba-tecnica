@@ -1,4 +1,4 @@
-package com.test.job.adapter.out.productcatalog.config;
+package com.test.job.adapter.productcatalog.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

@@ -1,8 +1,8 @@
-package com.test.job.adapter.out.productcatalog;
+package com.test.job.adapter.productcatalog;
 
-import com.test.job.adapter.out.productcatalog.config.ProductCatalogResilienceConfig;
-import com.test.job.adapter.out.productcatalog.dto.ProductDetailResponse;
-import com.test.job.application.port.out.ProductCatalogPort;
+import com.test.job.adapter.productcatalog.config.ProductCatalogResilienceConfig;
+import com.test.job.adapter.productcatalog.dto.ProductDetailResponse;
+import com.test.job.application.port.ProductCatalogPort;
 import com.test.job.domain.Product;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
